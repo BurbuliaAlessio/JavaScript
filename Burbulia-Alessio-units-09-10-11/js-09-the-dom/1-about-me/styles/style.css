@@ -1,0 +1,93 @@
+/**
+ * style.css
+ * 
+ * a basic style ofmy index.html
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #393939;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, rgb(212, 252, 121) 0%, rgb(150, 230, 161) 100%);
+}
+
+/* REQUEST STYLE */
+.request-of-exercise {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-color: #b5b5b5;
+}
+
+.request-of-exercise h1{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.request-of-exercise ul{
+    padding-left: 1em;
+    margin: 0.6em;
+    list-style:disc;
+}
+
+.request-of-exercise li{
+    padding: 0.3em;
+    margin: 0.4em;
+    list-style:inside;
+}
+
+/* TABLE STYLE */
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.container h2{
+    font-size: 2em;
+    text-align: center;
+    color: #e2f3ff;
+    padding: 1em;
+}
+
+table{
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-bottom: 13em;
+}
+
+th{
+    background-image: linear-gradient(to right, rgb(67, 67, 67) 0%, rgb(72, 72, 72) 100%);
+    color:#fff;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+tbody{
+    background-color: aliceblue;
+}
+
+td:nth-child(n + 2){
+    border-left: 1px solid rgb(72, 72, 72);
+}
+
+tr:nth-child(2n){
+    background-color: rgb(219, 238, 255);
+}
+
+td {
+    padding: 0.8em 0.8em 0.8em 0.8em
+}

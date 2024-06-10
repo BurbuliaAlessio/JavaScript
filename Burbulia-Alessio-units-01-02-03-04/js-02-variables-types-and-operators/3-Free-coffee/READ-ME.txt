@@ -1,0 +1,15 @@
+3.Free coffee
+● Store your current age into a variable.
+● Store a maximum age into a variable.
+● Store the amount of coffee you drink per day (as a number).
+● Calculate how much coffee you would drink for the rest of your life.
+● Output the result to the screen like so: "You will need NN cups of coffee to last you until the
+ripe old age of X".
+
+3. Caffè gratis
+● Memorizza la tua età attuale in una variabile.
+● Memorizzare un'età massima in una variabile.
+● Memorizza la quantità di caffè che bevi al giorno (come numero).
+● Calcola quanto caffè berresti per il resto della tua vita.
+● Visualizza il risultato sullo schermo in questo modo: "Avrai bisogno di NN tazze di caffè fino al
+matura vecchiaia di X".

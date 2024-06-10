@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Alessio Burbulia">
+  <title>5-credit-card-validation</title>
+  <link rel="stylesheet" href="#">
+</head>
+<body>
+  <h1>
+    5 Credit card validation
+  </h1>
+  <ul>
+    <li> 
+      <!-- first part -->
+      Write a function called “validateCreditCard” that checks credit card
+      numbers according to the following rules: 
+      <ul>
+        <li>
+          <p>Number must be 16 digits, all of them must be numbers.</p>
+        </li>
+        <li>
+          You must have at least two different digits represented (all of the digits cannot be the same).
+        </li>
+        <li>
+          The final digit must be even.
+        </li>
+        <li>
+          The sum of all the digits must be greater than 16
+        </li>
+      </ul>
+    </li>
+    <li>
+      <!-- second part -->
+      The following credit card numbers are valid:
+      <ul>
+        <li>
+          9999-9999-8888-0000
+        </li>
+        <li>
+          6666-6666-6666-1666
+        </li>
+      </ul>
+    </li>
+    <li>
+      The following credit card numbers are invalid:
+      <ul>
+        <li>
+          a923-3211-9c01-1112 invalid characters
+        </li>
+        <li>
+          4444-4444-4444-4444 only one type of number
+        </li>
+        <li>
+          1111-1111-1111-1110 sum less than 16
+        </li>
+        <li>
+          6666-6666-6666-6661 odd final number
+        </li>
+      </ul>
+    </li>
+    <li>
+      Hint
+      <ul>
+        <li>
+          Remove the dash '-' from the input string before checking if the input credit card number is valid
+          <code>
+            Call the function with several credit card numbers:<br>
+            validateCreditCard('9999-9999-8888-0000');<br>
+            validateCreditCard('4444-4444-4444-4444');<br>
+            validateCreditCard('6666-6666-6666-1666');<br>
+          </code>
+        </li>
+        <li>
+          <code>
+            The function returns an object saying that the credit card is valid, or what the error is:<br>
+              { valid: true, number: '9999-9999-8888-0000' }<br>
+              { valid: false, number: 'a923-3211-9c01-1112', error: 'wrong_length' }
+          </code>
+        </li>
+        <li>
+          <code>
+            For each card check, print out the result to the log in this format:<br>
+                    ================================<br>
+                    = number : a923-3211-9c01-1112 =<br>
+                    = valid : false =<br>
+                    = error : wrong length =<br>
+                    ===============================<br>
+          </code>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <p>
+    Watch on console.
+  </p>
+  <!-- end of body -->
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

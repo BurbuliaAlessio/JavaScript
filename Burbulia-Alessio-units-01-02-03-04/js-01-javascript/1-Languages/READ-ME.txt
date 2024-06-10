@@ -1,0 +1,15 @@
+1.Languages
+● Make a list of all the programming languages that you know
+● Classify the languages into the groups: compiled, interpreted, other
+● For each language, explain why it is compile, interpreted or other
+● Try to find additional programming languages and add them to the list
+Create a folder named 01-languages
+Inside the folder create a .txt or .doc or .md file with your answers
+
+1.Lingue
+● Fai un elenco di tutti i linguaggi di programmazione che conosci
+● Classificare le lingue nei gruppi: compilato, interpretato, altro
+● Per ogni lingua, spiegare perché viene compilata, interpretata o altro
+● Prova a trovare altri linguaggi di programmazione e aggiungili all'elenco
+Crea una cartella denominata 01-linguals
+All'interno della cartella crea un file .txt o .doc o .md con le tue risposte

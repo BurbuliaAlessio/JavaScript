@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alessio Burbulia">
+    <meta name="description" content="js-02-universal-traslator">
+    <title>2-universal-translator</title>
+  </head>
+  <body>
+    <h1>2-universal-translator</h1>
+    
+    <p><!-- poetry -->
+      2.Universal Translator</br>
+      ● Write a function named helloWorld that:</br>
+      ○ takes 1 argument, a language code (e.g. "es", "de", "en")</br>
+      ○ returns "Hello, World" for the given language, for atleast 3 languages. It should default to 
+      returning English.</br>
+      ● Call that function for each of the supported languages and log the result to 
+      make sure it works.
+    </p>
+    
+    <form id="calculate-biggest" method="get">
+        <!-- usefull to divide and specify the type of data to insert for user -->
+        <h2 class="section-form">Select a languages</h2>
+
+          <label for="language">Select a language (required)</label>
+          <select name="language" id="languages" required>
+            <option value="english" selected>English</option>
+            <option value="frances">Frances</option>
+            <option value="espanol">Espanol</option>
+            <option value="portugues">Português</option>
+          </select>
+
+        <button type="button" id="translator">Translator</button>
+    </form>
+
+    <p id="translate"> Hello World </p>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

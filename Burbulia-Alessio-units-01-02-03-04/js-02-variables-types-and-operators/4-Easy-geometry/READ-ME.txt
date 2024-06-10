@@ -1,0 +1,11 @@
+4.Easy geometry
+Calculate properties of a circle, using the definitions here.
+● Store a radius into a variable.
+● Calculate the circumference based on the radius, and output "The circumference is NN".
+● Calculate the area based on the radius, and output "The area is NN".
+
+4.Geometria semplice
+Calcola le proprietà di un cerchio, utilizzando le definizioni qui.
+● Memorizzare un raggio in una variabile.
+● Calcolare la circonferenza in base al raggio e restituire "La circonferenza è NN".
+● Calcolare l'area in base al raggio e restituire "L'area è NN".

@@ -1,0 +1,11 @@
+5.Covert temperature
+● Store a celsius temperature into a variable.
+● Convert it to fahrenheit and output "NN°C is NN°F".
+● Now store a fahrenheit temperature into a variable.
+● Convert it to celsius and output "NN°F is NN°C."
+
+5.Temperatura nascosta
+● Memorizzare una temperatura Celsius in una variabile.
+● Convertirlo in Fahrenheit e visualizzare "NN°C è NN°F".
+● Ora memorizza una temperatura Fahrenheit in una variabile.
+● Convertirlo in gradi Celsius e ottenere "NN°F è NN°C".

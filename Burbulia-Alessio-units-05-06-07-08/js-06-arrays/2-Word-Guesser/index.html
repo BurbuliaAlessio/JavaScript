@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Alessio Burbulia">
+  <title>2-Word-Guesser</title>
+  <link rel="stylesheet" href="#">
+</head>
+<body>
+  <h1>
+    2 Word Guesser
+  </h1>
+  <p>
+    You will be implementing a game similar to hangman.
+  </p>
+  <!-- fist part -->
+  <ul>
+    <li>          
+      Create two arrays:
+      <ul>
+        <li>
+          One for the letters of the word (e.g. 'C', 'A', 'T')
+        </li>
+        <li>
+          Another for the current guessed letters (start with '_', '_', '_' and add the correct letters to it).
+        </li>
+      </ul>
+    </li>
+    
+    <!-- second part -->
+    <li>
+      Write a function called guessLetter that should:
+      Take one argument, a letter.
+      <ul>
+        <li>
+          Have a maximum number of guesses (e.g. 6)
+        </li>
+        <li>
+          Check if the letter is in the word array.
+        </li>
+        <li>
+          If the letter matches, add it in the correct position of the guessed array.    
+        </li>
+        <li>
+          Show the user the current guessed letters.
+        </li>
+        <li>
+          Tell the user if they guessed a correct letter.
+        </li>
+        <li>
+          Tell the user how many guesses remain.
+        </li>
+        <li>
+          Tell the user if they won or lost the game.
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <p>
+    Bonuses
+  </p>
+  <ul>
+    <li>
+      Add a random reward for correct guesses and subtract a random amount for failed
+      guesses.
+    </li>
+    <li>
+      Show the user the total reward 
+      (positive or negative).
+    </li>
+    <li>
+      Draw a hangman image to the console log 
+      after each guess.
+    </li>
+    <li>
+      Add a function that generates the letters 
+      to guess randomly.
+    </li>
+    <li>
+      Add a function that chooses the initial 
+      word to guess from an array of words.
+    </li>
+  </ul>
+  <p>
+    Watch on console. change the script on index.html
+  </p>
+  <!-- <script src="./scripts/1-first-request/main.js"></script> -->
+  <script src="./scripts/2-bonus-requests/main.js"></script>
+</body>
+</html>

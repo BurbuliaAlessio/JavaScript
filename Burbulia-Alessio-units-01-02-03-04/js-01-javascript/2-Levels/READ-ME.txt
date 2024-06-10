@@ -1,0 +1,15 @@
+2.Levels
+Read the following articles and write a short summary in Italian or English
+● Compiler and Interpreter Critical Differences
+● Levels of Programming Languages
+● Bonus Machine Language vs. Assembly Language
+Create a folder named 02-levels
+Inside the folder create a .txt or .doc or .md file with your answers
+
+2. Livelli
+Leggi i seguenti articoli e scrivi un breve riassunto in italiano o inglese
+● Differenze critiche tra compilatore e interprete
+● Livelli dei linguaggi di programmazione
+● Bonus Linguaggio Macchina vs. Linguaggio Assembly
+Crea una cartella denominata 02-levels
+All'interno della cartella crea un file .txt o .doc o .md con le tue risposte

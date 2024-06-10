@@ -1,0 +1,19 @@
+1.Tell my fortune
+● Store the following into variables: number of children, partner's name, geographic location, job
+title.
+● Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+note: remember to create an index.html file and a main.js file
+Do this for all future exercises
+Open your browser's devtools and go to the console
+
+1. Racconta la mia fortuna
+● Memorizzare quanto segue in variabili: numero di figli, nome del partner, posizione geografica, lavoro
+titolo.
+● Visualizza la tua fortuna sullo schermo in questo modo: "Sarai una X in Y e sposerai Z con N figli".
+nota: ricordati di creare un file index.html e un file main.js
+Fatelo per tutti gli esercizi futuri
+Apri gli strumenti di sviluppo del tuo browser e vai alla console
+
+
+
+

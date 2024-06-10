@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alessio Burbulia">
+    <meta name="description" content="js-1-big-numbers">
+    <title>1-big-numbers</title>
+  </head>
+  <body>
+    <h1>1-big-numbers</h1>
+    <p><!-- poetry -->
+        1.Big numbers
+        ● Write a function named greaterNum that:<br>
+        ○ takes 2 arguments, both numbers.<br>
+        ○ returns whichever number is the greater (higher) number.<br>
+        ● Call that function 2 times with different number pairs, and log the output to<br>
+        make sure it works (e.g. "The greater number of 5 and 10 is 10.").
+    </p>
+    <form id="calculate-biggest" method="get">
+        <!-- usefull to divide and specify the type of data to insert for user -->
+        <h2 class="section-form">Insert Here your numbers</h2>
+        
+        <!-- input name = "first-number" [required]-->
+          <label for="first-number">First Number [Required]</label>
+          <input placeholder="Insert fist number REQUIRED FIELD*" type="number" name="first-number" id="first-number" required>
+
+        <!-- input name = "second-number" [required]-->
+          <label for="second-number">Second number [Required]</label>
+          <input placeholder="Insert second number REQUIRED FIELD*" type="number" name="second-number" id="second-number" required>
+
+          <!-- input name = "third-number" [required]-->
+          <label for="third-number">Third Number [Required]</label>
+          <input placeholder="Insert third number REQUIRED FIELD*" type="number" name="third-number" id="third-number" required>
+
+        <!-- input name = "fourth-number" [required]-->
+          <label for="fourth-number">Fourth number [Required]</label>
+          <input placeholder="Insert fourth number REQUIRED FIELD*" type="number" name="fourth-number" id="fourth-number" required>
+
+    <button type="button" id="button">Send</button>
+
+    <!-- calling function greaterNum() -->
+    <p id="first-call"></p>
+    <p id="second-call"></p>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alessio Burbulia">
+    <meta name="description" content="js-02-universal-traslator">
+    <title>2-universal-translator</title>
+  </head>
+  <body>
+    <h1>2-universal-translator</h1>
+    
+    <p><!-- poetry -->
+        3.Grade master</br>
+        ● Write a function named assignGrade that:</br>
+        ○ takes 1 argument, a number score.</br>
+        ○ returns a grade for the score, either "A", "B", "C", "D", or "F".</br>
+        ● Call that function for a few different scores and log the result to make sure itworks.
+    </p>
+    
+    <form id="calculate-biggest" method="get">
+
+        <!-- usefull to divide and specify the type of data to insert for user -->
+        <h2 class="section-form">Select a languages</h2>
+
+          <label for="score">Select your natural hair color (required)</label>
+          <select name="score" id="number-score" required>
+            <option value= "2" selected> 2 [most bad] </option>
+            <option value= "3"> 3 </option>
+            <option value= "4"> 4 </option>
+            <option value= "5"> 5 </option>
+            <option value= "6"> 6 </option>
+            <option value= "7"> 7 </option>
+            <option value= "8"> 8 </option>
+            <option value= "9"> 9 </option>
+            <option value="10"> 10 [the better] </option>
+          </select>
+
+        <button type="button" id="changer">change valutation</button>
+    </form>
+
+    <p id="valutation-changed"> the print change </p>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
